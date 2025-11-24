@@ -35,5 +35,6 @@ public class UsuarioController {
                                                       @RequestBody Usuario usuario){
         usuarioService.atualizarUsuarioPorId(id, usuario);
         return ResponseEntity.ok().build();
+
     }
 }
